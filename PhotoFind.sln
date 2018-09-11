@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentation", "Apresentation", "{B8FFD4EC-7030-4AB4-95FC-3CEBBF18673F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A3B147BA-0D9D-43CD-8FC0-2BDEFDD075BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{ED10D81A-50AA-4770-89A8-1EDFDD115246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{29D11681-6530-4ECD-9D03-85A85FB6E913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9F54D592-B140-44A3-8D1F-A86B6ECABAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoFind.Domain", "PhotoFind.Domain\PhotoFind.Domain.csproj", "{6857512C-CD2C-41F4-8D65-9D6943361E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6857512C-CD2C-41F4-8D65-9D6943361E8F} = {ED10D81A-50AA-4770-89A8-1EDFDD115246}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A7E139A-E2EE-4743-9CC9-BE51F9B083B8}
+	EndGlobalSection
+EndGlobal

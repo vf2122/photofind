@@ -17,20 +17,28 @@ namespace PhotoFind.Domain.Entities
         private ICollection<Cadastro> _cadastros { get; set; }
         public ICollection<Cadastro> Cadastros { get { return _cadastros; } }
 
-        public Usuario(string nome, string sobrenome, Email email, Cpf cpf, DateTime dataNascimento, string senha)
+        public Usuario(string nome, string sobrenome, Email email, Cpf cpf, DateTime dataNascimento)
         {
             Nome = nome;
             Sobrenome = sobrenome;
             Email = email;
             CPF = cpf;
             DataNascimento = dataNascimento;
-            _cadastros = new List<Cadastro> { new Cadastro(senha) };
         }
 
-        public Cadastro ObterCadastroAtivo()
+        public bool TemCadastroAtivo()
         {
-            var retorno = Cadastros.FirstOrDefault(x => x.Ativo);
+            var retorno = Cadastros.Count(x => x.Ativo) > 0;
             return retorno;
+        }
+
+        public void CriarNovoCadastro(string senha)
+        {
+            if (!TemCadastroAtivo())
+            {
+                var cadastro = new Cadastro(senha);
+                _cadastros.Add(cadastro);
+            }
         }
     }
 }

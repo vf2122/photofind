@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoFind.Domain", "PhotoFi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A907AC5-2EBE-4B84-8A07-B84C861A78D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoFind.Domain.Core", "PhotoFind.Domain.Core\PhotoFind.Domain.Core.csproj", "{005682DE-587B-4565-80F6-B98F26C2276F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +29,17 @@ Global
 		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6857512C-CD2C-41F4-8D65-9D6943361E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005682DE-587B-4565-80F6-B98F26C2276F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005682DE-587B-4565-80F6-B98F26C2276F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005682DE-587B-4565-80F6-B98F26C2276F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005682DE-587B-4565-80F6-B98F26C2276F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6857512C-CD2C-41F4-8D65-9D6943361E8F} = {ED10D81A-50AA-4770-89A8-1EDFDD115246}
+		{005682DE-587B-4565-80F6-B98F26C2276F} = {ED10D81A-50AA-4770-89A8-1EDFDD115246}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A7E139A-E2EE-4743-9CC9-BE51F9B083B8}
